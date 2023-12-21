@@ -1,0 +1,29 @@
+{
+  "name": "realtime",
+  "version": "1.0.0",
+  "description": "Send a real time sound when there is an alarm in school.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "pkg index.js -t node18-win-x64,node18-linux-x64,node18-macos-x64 -o Real-Time-Red-Alarm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnon001/real-time-red-alarm-for-schools.git"
+  },
+  "keywords": [
+    "pikud-haoref"
+  ],
+  "author": "arnon001 <Arnon Hacohen> (arnonhacohen123@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnon001/real-time-red-alarm-for-schools/issues"
+  },
+  "homepage": "https://github.com/arnon001/real-time-red-alarm-for-schools#readme",
+  "dependencies": {
+    "pikud-haoref-api": "eladnava/pikud-haoref-api",
+    "pkg": "^5.8.1",
+    "sound-play": "^1.1.0"
+  }
+}
